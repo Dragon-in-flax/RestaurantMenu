@@ -42,7 +42,7 @@
             this.txtPrice = new System.Windows.Forms.TextBox();
             this.lstDishes = new System.Windows.Forms.ListBox();
             this.cmbFormat = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox = new System.Windows.Forms.TextBox();
             this.pictureBox = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox)).BeginInit();
             this.SuspendLayout();
@@ -176,25 +176,22 @@
             // 
             this.cmbFormat.BackColor = System.Drawing.Color.PeachPuff;
             this.cmbFormat.FormattingEnabled = true;
-            this.cmbFormat.Items.AddRange(new object[] {
-            "HTML",
-            "Текст"});
             this.cmbFormat.Location = new System.Drawing.Point(804, 456);
             this.cmbFormat.Name = "cmbFormat";
             this.cmbFormat.Size = new System.Drawing.Size(395, 28);
             this.cmbFormat.TabIndex = 12;
             // 
-            // textBox5
+            // textBox
             // 
-            this.textBox5.BackColor = System.Drawing.Color.Brown;
-            this.textBox5.Font = new System.Drawing.Font("Greengoth", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox5.ForeColor = System.Drawing.Color.Bisque;
-            this.textBox5.Location = new System.Drawing.Point(554, 490);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBox5.Size = new System.Drawing.Size(645, 259);
-            this.textBox5.TabIndex = 13;
+            this.textBox.BackColor = System.Drawing.Color.Brown;
+            this.textBox.Font = new System.Drawing.Font("Greengoth", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox.ForeColor = System.Drawing.Color.Bisque;
+            this.textBox.Location = new System.Drawing.Point(554, 490);
+            this.textBox.Multiline = true;
+            this.textBox.Name = "textBox";
+            this.textBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox.Size = new System.Drawing.Size(645, 259);
+            this.textBox.TabIndex = 13;
             // 
             // pictureBox
             // 
@@ -212,7 +209,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1228, 761);
             this.Controls.Add(this.pictureBox);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.textBox);
             this.Controls.Add(this.cmbFormat);
             this.Controls.Add(this.lstDishes);
             this.Controls.Add(this.txtPrice);
@@ -249,7 +246,7 @@
         private System.Windows.Forms.TextBox txtPrice;
         private System.Windows.Forms.ListBox lstDishes;
         private System.Windows.Forms.ComboBox cmbFormat;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox;
         private System.Windows.Forms.PictureBox pictureBox;
     }
 }
