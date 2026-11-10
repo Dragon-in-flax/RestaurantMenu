@@ -53,6 +53,7 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormatterContext.cs" />
     <Compile Include="HtmlStrategy.cs" />
     <Compile Include="IFormatStrategy.cs" />
     <Compile Include="Program.cs" />

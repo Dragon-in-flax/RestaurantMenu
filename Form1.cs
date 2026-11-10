@@ -12,24 +12,25 @@ namespace RestaurantMenu
 {
     public partial class Form1 : Form
     {
+        //Список блюд
         private List<Dish> _dishes = new List<Dish>();
-        
+        //Переключатель стратегии
+        private FormatterContext _formatter = new FormatterContext();
         public Form1()
         {
             InitializeComponent();
+            //Варианты выбора стратегии
+            cmbFormat.Items.Add("Обычный текст");
+            cmbFormat.Items.Add("HTML");
+            cmbFormat.SelectedIndex = 0; //Обычный теуст по умолчанию
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnGenerate_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void btnAdd_Click(object sender, EventArgs e)
         {
 
         }

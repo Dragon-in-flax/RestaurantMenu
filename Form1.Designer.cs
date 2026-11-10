@@ -58,7 +58,7 @@
             this.txtOutput.TabIndex = 0;
             this.txtOutput.Text = "Сформировать список блюд";
             this.txtOutput.UseVisualStyleBackColor = false;
-            this.txtOutput.Click += new System.EventHandler(this.button1_Click);
+            this.txtOutput.Click += new System.EventHandler(this.btnGenerate_Click);
             // 
             // btnAdd
             // 
@@ -71,6 +71,7 @@
             this.btnAdd.TabIndex = 1;
             this.btnAdd.Text = "Добавить блюдо";
             this.btnAdd.UseVisualStyleBackColor = false;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
             // label1
             // 
@@ -123,7 +124,6 @@
             this.label4.Size = new System.Drawing.Size(68, 36);
             this.label4.TabIndex = 6;
             this.label4.Text = "Цена";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // txtName
             // 
@@ -142,7 +142,6 @@
             this.txtCategory.Name = "txtCategory";
             this.txtCategory.Size = new System.Drawing.Size(417, 41);
             this.txtCategory.TabIndex = 8;
-            this.txtCategory.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // txtComposition
             // 
